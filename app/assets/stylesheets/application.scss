@@ -1,3 +1,33 @@
 // application.scss
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1484053801020-3a74ca659b03?auto=format&fit=crop&w=2550&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:rgb(81, 150, 150);
+
+  font-family: 'Spectral SC', serif;
+  color: rgba(81, 9, 31, 0.9);
+}
+.panel{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.panel-info .panel-heading{
+  background-color: rgba(81, 150, 150, 0.3);
+}
+.panel-title{
+  color: rgba(81, 9, 31, 0.9);
+  font-size: 17px;
+}
+.panel p{
+  color: rgba(81, 0, 0, 1);
+}
+.center{
+  text-align: center;
+}
+.btn:hover{
+  background-color: rgba(81, 150, 150, 0.2);
+}
