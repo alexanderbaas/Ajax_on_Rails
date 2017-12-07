@@ -11,6 +11,12 @@
 <button>
   <%= link_to "Add new post", new_post_path, class: "btn btn-danger" %>
 </button>
+<br>
+<% @posts.each do |post|  %>
+<%= post.title %>
+<%= post.content %>
+<br>
+<% end %>
 
 </body>
 </html>
